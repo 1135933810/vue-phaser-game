@@ -1,0 +1,49 @@
+# 忽略 node_modules 目录
+/node_modules/
+
+# 忽略构建目录（可能是 dist/ 或 build/）
+/dist/
+# 或者
+#/build/
+
+# 忽略日志文件
+*.log
+
+# 忽略 npm 或 yarn 的调试和错误日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略源代码映射文件，用于调试
+**/*.map
+
+# 忽略环境配置文件（除了 .env.local）
+.env
+.env.production
+.env.staging
+.env.test
+!.env.local
+
+# 忽略编辑器配置文件
+.vscode/
+.idea/
+
+# 忽略其他临时文件或目录
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 忽略 npm 或 yarn 的锁文件
+package-lock.json
+yarn.lock
+
+# 如果你使用 Jest 或其他测试框架，忽略测试报告的目录
+/tests/e2e/reports/
+/tests/unit/coverage/
+
+# 忽略 IDE 的临时文件
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
